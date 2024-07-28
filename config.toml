@@ -36,6 +36,8 @@ w.w = ":write"
 [keys.normal.space.l]
 j = "goto_next_diag"
 k = "goto_prev_diag"
+f = "goto_next_function"
+t = "goto_next_class"
 
 [keys.select]
 "{" = "goto_prev_paragraph"
