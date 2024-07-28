@@ -1,0 +1,17 @@
+[[language]]
+name = "python"
+auto-format = true
+language-servers = [
+    {name = "pyright"},
+    {name = "ruff-lsp", except-features = ["diagnostics"]},
+]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config.python.analysis.typeCheckingMode = "off"  # <---
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+args = []
+config = {}

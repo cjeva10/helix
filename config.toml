@@ -1,0 +1,44 @@
+theme = "catppuccin_transparent"
+
+[editor]
+mouse = false
+bufferline = "always"
+true-color = true
+line-number = "relative"
+rulers = [88]
+
+[editor.file-picker]
+hidden = false
+
+[editor.search]
+smart-case = true
+wrap-around = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph"
+X = ["extend_line_up", "extend_to_line_bounds"]
+";" = "flip_selections"
+
+[keys.normal.g]
+"j" = "goto_previous_buffer"
+"k" = "goto_next_buffer"
+
+[keys.normal.space]
+w.c = ":buffer-close"
+w.space = "rotate_view"
+w.w = ":write"
+
+[keys.normal.space.l]
+j = "goto_next_diag"
+k = "goto_prev_diag"
+
+[keys.select]
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph"
+";" = "flip_selections"
+
