@@ -3,7 +3,7 @@ name = "python"
 auto-format = true
 language-servers = [
     {name = "pyright"},
-    {name = "ruff-lsp", except-features = ["diagnostics"]},
+    {name = "ruff-lsp"},
 ]
 
 [language-server.pyright]
