@@ -9,7 +9,7 @@ language-servers = [
 [language-server.pyright]
 command = "pyright-langserver"
 args = ["--stdio"]
-config.python.analysis.typeCheckingMode = "off"  # <---
+config.python.analysis.typeCheckingMode = "off"
 
 [language-server.ruff-lsp]
 command = "ruff-lsp"
