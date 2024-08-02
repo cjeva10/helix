@@ -1,8 +1,8 @@
 theme = "catppuccin_mocha"
 
 [editor]
-auto-info = false
-line-number = "relative"
+mouse = false
+bufferline = "always"
 rulers = [88]
 
 [editor.search]
@@ -17,10 +17,6 @@ X = ["extend_line_up", "extend_to_line_bounds"]
 "}" = "goto_next_paragraph"
 H = "goto_previous_buffer"
 L = "goto_next_buffer"
-
-[keys.normal.g]
-j = "page_cursor_half_down"
-k = "page_cursor_half_up"
 
 [keys.normal.space]
 w.c = ":buffer-close"
@@ -38,4 +34,3 @@ T = "goto_prev_class"
 "{" = "goto_prev_paragraph"
 "}" = "goto_next_paragraph"
 ";" = "flip_selections"
-
