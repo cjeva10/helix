@@ -22,15 +22,8 @@ L = "goto_next_buffer"
 w.c = ":buffer-close"
 w.space = ":write"
 
-[keys.normal.space.l]
-j = "goto_next_diag"
-k = "goto_prev_diag"
-f = "goto_next_function"
-F = "goto_prev_function"
-t = "goto_next_class"
-T = "goto_prev_class"
-
 [keys.select]
 "{" = "goto_prev_paragraph"
 "}" = "goto_next_paragraph"
 ";" = "flip_selections"
+X = ["extend_line_up", "extend_to_line_bounds"]
