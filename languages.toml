@@ -1,10 +1,7 @@
 [[language]]
 name = "python"
 auto-format = true
-language-servers = [
-    {name = "pyright"},
-    {name = "ruff-lsp"},
-]
+language-servers = [ "pyright", "ruff-lsp" ]
 
 [language-server.pyright]
 command = "pyright-langserver"
