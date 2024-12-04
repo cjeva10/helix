@@ -1,8 +1,9 @@
-theme = "my_rose_pine"
+theme = "catppuccin_macchiato"
 
 [editor]
 mouse = false
 bufferline = "always"
+auto-info = false
 
 [editor.search]
 smart-case = true
