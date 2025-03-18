@@ -1,6 +1,0 @@
-inherits = "rose_pine_moon"
-
-"ui.cursor.primary.normal" = { fg = "text", bg = "muted" }
-"ui.cursor.primary.insert" = { fg = "surface", bg = "foam" }
-"ui.cursor.primary.select" = { fg = "surface", bg = "gold" }
-

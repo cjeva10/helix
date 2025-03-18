@@ -1,7 +1,7 @@
 [[language]]
 name = "python"
+language-servers = [ "pyright", "ruff" ]
 auto-format = true
-language-servers = [ "pyright", "ruff-lsp" ]
 
 [[language]]
 name = "solidity"
@@ -12,10 +12,9 @@ command = "pyright-langserver"
 args = ["--stdio"]
 config.python.analysis.typeCheckingMode = "off"
 
-[language-server.ruff-lsp]
-command = "ruff-lsp"
-args = []
-config = {}
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
 
 [language-server.solidity-ls-nomicfoundation]
 command = "nomicfoundation-solidity-language-server"
